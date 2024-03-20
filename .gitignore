@@ -1,0 +1,6 @@
+.env
+headlines.csv
+__pycache__/
+*.yaml
+venv
+.idea

@@ -21,5 +21,5 @@ class Newsapi(NewsSource):
             title = article["title"]
             des = article["description"]
             timestamp = int(convert_iso8601_to_unix_timestamp(article["publishedAt"]))
-            headlines.append((self.source, timestamp * 1000, title))
+            headlines.append((self.source, timestamp * 1000, title, des))
         return headlines

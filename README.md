@@ -1,4 +1,4 @@
-# AI Trading Prototype Headlines
+# This is AI Trading Prototype Headlines
 
 This project complements the [ai-trading-prototype](https://github.com/binance/ai-trading-prototype) and [ai-trading-prototype-backtester](https://github.com/binance/ai-trading-prototype-backtester) projects by offering a tool to download news headlines in a compatible format.
 

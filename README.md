@@ -62,3 +62,5 @@ The format is: `"headline collected source","headline collected timestamp (ms)",
   - `process_data`: This method should take the raw `response` from the `query` method and return a list of `(timestamp,title)`'s. The `timestamp` should be a unix epoch, eg. `1691381271` and the `title` should be a string containing the news headline.
 - Once the Class is created, simply add the filename to the `news_sources` list in the `config.yaml` file in order to enable it.
 - Tip: Use the 2 existing news sources as a template/reference.
+
+
